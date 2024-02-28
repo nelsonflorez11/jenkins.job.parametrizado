@@ -1,5 +1,5 @@
 job('hijo02-dsl') {
-	description('gano santafe al chico')
+	description('JOB DSL')
   	scm {
       		git('https://github.com/nelsonflorez11/jenkins.job.parametrizado.git', 'main') { node ->
         		node / gitConfigName('nelsonflorez11')
